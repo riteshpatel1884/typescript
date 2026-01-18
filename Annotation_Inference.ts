@@ -10,6 +10,8 @@ drink = 0; //  Error: Type 'number' is not assignable to type 'string'
 // TypeScript will NOT allow assigning a number because it infers `drink` as a string based on the initial value.
 
 
+
+// --------------------------------------------------
 // --------------------------------------------------
 // 2️⃣ Types of Errors in TypeScript
 // TypeScript mainly shows two kinds of errors:
@@ -26,6 +28,8 @@ channelName = 2; // Type 'number' is not assignable to type 'string'
 // Since `channelName` was assigned a string first, it will only accept strings afterward.
 
 
+
+// --------------------------------------------------
 // --------------------------------------------------
 // 3️⃣ Type Annotation: Type annotation means you explicitly tell TypeScript what the type is.
 let chaiFlavour: string = "Masala chai";
@@ -70,6 +74,10 @@ id = "10";
 let status: "success" | "error" | "loading";
 
 
+
+
+// --------------------------------------------------
+// --------------------------------------------------
 
 // 4️⃣ Problem with implicit `any`
 const orders = ['12', '28', '20', '42'];
