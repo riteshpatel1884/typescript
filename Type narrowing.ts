@@ -52,6 +52,9 @@ function test(x: A | B) {
 }
 
 
+
+// --------------------------------------------------
+// --------------------------------------------------
 // 2️⃣ Union types + typeof narrowing
 function getchai(kind: string | number) {
   if (typeof kind === "string") {
@@ -74,6 +77,8 @@ function getchai(kind: string | number) {
 
 
 
+// --------------------------------------------------
+// --------------------------------------------------
 //  3️⃣ Optional parameters (?) + truthy narrowing
 function serverchai(msg?: string) {
   if (msg) {
@@ -89,8 +94,8 @@ function serverchai(msg?: string) {
 
 
 
-
-
+// --------------------------------------------------
+// --------------------------------------------------
 // 4️⃣ Literal types + union narrowing
 function orderchai(size: "small" | "medium" | "large" | number) {
   if (size === "small") {
@@ -111,6 +116,8 @@ function orderchai(size: "small" | "medium" | "large" | number) {
 
 
 
+// --------------------------------------------------
+// --------------------------------------------------
 // 6️⃣ Class-based narrowing with instanceof
 class khuladchai {
   server() {
@@ -137,7 +144,8 @@ function server(chai: khuladchai | cuttingchai) {
 
 
 
-
+// --------------------------------------------------
+// --------------------------------------------------
 // 7️⃣ Custom type guard (obj is Type): typescripts allows to create our own types
 type chaiOrder = {
   type: string;
@@ -166,7 +174,8 @@ function serveorder(item: chaiOrder | string) {
 
 
 
-
+// --------------------------------------------------
+// --------------------------------------------------
 // 8️⃣ An interesting way of declaring types in a production-level codebase.
 
 type MasalaChai = {type: "masala"; spicelevel: number};
@@ -197,7 +206,8 @@ function Makechai(order:chai){
 
 
 
-
+// --------------------------------------------------
+// --------------------------------------------------
 // 9️⃣ unknown vs any + array type guard
 // kayi baar arrays dataype ke case me ham unknown/any ka use krte hai 
 function isStringArray(arr:unknown): arr is string[]{
