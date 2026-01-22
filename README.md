@@ -28,6 +28,6 @@ These notes cover **most of the important TypeScript concepts**, written in a **
 
 This repo is mainly for learning and sharing knowledge.
 
-Feel free to explore or fork it 🚀
+Feel free to explore or fork it 
 
 Happy coding!
