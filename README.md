@@ -32,7 +32,7 @@
 
 **Welcome to my comprehensive TypeScript learning repository!** 
 
-This isn't just another code dump — it's a carefully curated collection of notes designed with **clarity** and **practicality** in mind. Whether you're a complete beginner or brushing up on fundamentals, these notes cut through the noise and get straight to what matters.
+This isn't just another code dump - it's a carefully curated collection of notes designed with **clarity** and **practicality** in mind. Whether you're a complete beginner or brushing up on fundamentals, these notes cut through the noise and get straight to what matters.
 
 > **💡 Philosophy:** *"The best documentation is the one you actually want to read."*
 
