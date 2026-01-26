@@ -233,6 +233,5 @@ MIT License - Feel free to use this project for learning and building!
 
 <sup>⭐ Star this repo if you found it helpful! ⭐</sup>
 
-**[⬆ Back to Top](#-typescript-learning-notes)**
 
 </div>
