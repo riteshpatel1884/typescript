@@ -1,3 +1,4 @@
+// 1️⃣
 function makeChai(order:{type:string; sugar:number; strong:boolean
 }){
   console.log(order);
@@ -37,7 +38,7 @@ function serverChai(order: chaiorder) {
 
 
 // =======================
-// IMPLEMENTING TYPES VS INTERFACES
+// 2️⃣ IMPLEMENTING TYPES VS INTERFACES
 // =======================
 
 
@@ -76,7 +77,7 @@ class chai implements cupSize {
 
 
 // =======================
-// UNION TYPES AND CLASSES
+// 3️⃣ UNION TYPES AND CLASSES
 // =======================
 
 // This is a union type
@@ -102,7 +103,7 @@ function orderChai(t:TeaType){
 
 
 // =======================
-// INTERSECTION TYPES
+// 4️⃣ INTERSECTION TYPES
 // =======================
 
 // Base object
@@ -128,7 +129,7 @@ const cup: newMasalaChai = {
 
 
 // =======================
-// OPTIONAL PROPERTIES
+//5️⃣ OPTIONAL PROPERTIES
 // =======================
 
 // Sometimes a value may or may not exist (optional). We use ? to mark it as optional.
@@ -144,3 +145,117 @@ const u2: User = { username: "Ritesh", bio: "Developer" };
 
 
 // If bio is missing, TypeScript will NOT throw an error because it is marked as optional.
+
+
+
+
+// 6️⃣
+
+interface Chai{
+  flavour: string,
+  price:number
+  milk?:boolean  // optional property
+}
+//  We can also make this using type but interface has its own benefits
+
+const masalaChai:Chai={
+  flavour:"Masala",
+  price: 30
+}
+
+
+
+
+// 7️⃣ defining readonly property
+
+interface shop{
+  readonly id:number
+  name: string
+}
+
+const s: shop ={
+  id:1,
+  name:"Chaicode"
+}
+
+
+
+
+
+// 8️⃣ interface me ham functionality nhi likh shakte, and agar naam bhi nhi likhna hai then
+interface Discount{
+  (price:number): number
+}
+// price number hoga and return type bhi number hi hoga
+
+const apply50:Discount = (p) => p*0.5
+
+
+
+
+
+// 9️⃣
+interface TeaMachine{
+  start(): void
+  stop():void
+}
+
+const machine: TeaMachine={
+  start(){
+    console.log("start")
+  },
+  stop(){
+    console.log("stop")
+  }
+}
+
+
+
+
+
+
+// 1️⃣0️⃣ index signature: It tells TypeScript that this object can have unknown/dynamic property names, but all values will follow a specific type.
+interface chaiRating{
+  [flavour:string]:number   // multiple ratings can be implemented
+}
+
+const ratings:chaiRating={
+  masala:4.5,
+  ginger:2.3
+}
+
+
+
+
+
+
+// 1️⃣1️⃣ suppose ye wala interface library se aaya hai
+interface User{
+  name: string
+}
+
+// and ye wala interface hamne create kiya (user defined interface)
+interface User{
+  age:number
+}
+
+const u:User={
+  name:"Ritesh"  // It will show error as it is referring to user interface so dono property iske andar hone chaiye
+}
+
+// correction
+const u:User= {
+  name:"Ritesh",
+  age:21
+}
+
+
+
+
+
+// 1️⃣2️⃣
+
+interface A {a:string}
+interface B {b:string}
+
+interface C extends A,B {}
