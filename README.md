@@ -198,31 +198,6 @@ graph LR
 
 ---
 
-## 💎 Show Your Support
-
-<div align="center">
-
-**If this repository helped you, give it a ⭐!**
-
-[![Star History Chart](https://img.shields.io/github/stars/riteshpatel1984/typescript?style=social)](https://github.com/riteshpatel1984/typescript/stargazers)
-[![Fork](https://img.shields.io/github/forks/riteshpatel1984/typescript?style=social)](https://github.com/riteshpatel1984/typescript/network/members)
-[![Watch](https://img.shields.io/github/watchers/riteshpatel1984/typescript?style=social)](https://github.com/riteshpatel1984/typescript/watchers)
-
-</div>
-
----
-
-## 📞 Connect & Support
-
-<div align="center">
-
-**Have questions? Found a bug? Want to chat about TypeScript?**
-
-[![GitHub Issues](https://img.shields.io/badge/Report%20Bug-GitHub%20Issues-red?style=for-the-badge&logo=github)](https://github.com/riteshpatel1984/typescript/issues)
-[![GitHub Discussions](https://img.shields.io/badge/Ask%20Question-GitHub%20Discussions-blue?style=for-the-badge&logo=github)](https://github.com/riteshpatel1984/typescript/discussions)
-
-</div>
-
 ---
 
 ## 📄 License
