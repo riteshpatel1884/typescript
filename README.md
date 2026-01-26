@@ -255,7 +255,7 @@ MIT License - Feel free to use this project for learning and building!
 
 ---
 
-<sub>Made with 💙 by [riteshpatel1984](https://github.com/riteshpatel1884)</sub>
+<sub>Made with 💙 by [riteshpatel1884](https://github.com/riteshpatel1884)</sub>
 
 <sup>⭐ Star this repo if you found it helpful! ⭐</sup>
 
