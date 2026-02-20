@@ -5,7 +5,7 @@ const chaiFlavours: string[] = ["Masala", "Adrak"]
 const chaiPrice:number[] = [10,20]
 const rating: Array<number> = [4.5,3.4]
 
-
+bboi
 
 // 2️⃣
 type Chai = {
